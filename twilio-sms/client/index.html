@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twilio</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="sms">
+        <div class="field">
+          <label for="msg">Enter your message</label>
+          <input type="text" name="msg" id="msg" required />
+        </div>
+        <div class="field">
+          <label for="phone">Enter your phone number</label>
+          <input type="tel" name="phone" id="phone" required />
+        </div>
+        <button type="submit" id="send-sms">Send Message</button>
+      </form>
+    </div>
+
+    <script src="sms.js"></script>
+  </body>
+</html>
