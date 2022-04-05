@@ -1,0 +1,11 @@
+{
+  "name": "morsecode-translator",
+  "version": "1.0.0",
+  "description": "A simple website for translating morse code to english.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

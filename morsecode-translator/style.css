@@ -1,0 +1,57 @@
+:root {
+  --text-color: #222831;
+  --primary: #b6ffce;
+}
+
+body {
+  background: var(--primary);
+  color: var(--text-color);
+}
+
+.container-fluid {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2px;
+  border-bottom: 3px var(--text-color) solid;
+}
+
+p {
+  width: 60%;
+  max-width: 500px;
+  min-height: 100px;
+  max-height: 200px;
+
+  font-size: 1.4rem;
+
+  border: 2px black solid;
+  border-radius: 5px;
+  background-color: white;
+
+  padding: 0.75rem;
+  overflow-y: auto;
+}
+
+textarea {
+  width: 60%;
+  max-width: 500px;
+  min-height: 100px;
+  max-height: 200px;
+  border: 2px var(--text-color) solid;
+  padding: 0.75rem;
+}
+
+textarea#code {
+  font-size: 1.5rem;
+}
+
+input:hover,
+input:focus {
+  border: 2px black solid;
+}
